@@ -19,6 +19,6 @@
   $headers .= "Reply-To: $visitor_email \r\n";
  
   mail($to,$email_subject,$email_body,$headers);
-  $data = "success";
+  $data['response'] = "success";
   echo json_encode($data);
 ?>
