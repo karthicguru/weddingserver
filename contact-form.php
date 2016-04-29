@@ -8,13 +8,16 @@
    $email_from = 'RSVP@babuwedskarthiga.com';
  
     $email_subject = "New RSVP submission";
- 
     $email_body = "You have received a new message from the user $name.\n".
-                            "Here is the message:\n $message".
+                            "email-id is: $visitor_email\n"
+                            "Here is the message:\n $message\n".
+                            "number of attending: $event \n";
+                            
 
-     $to = "karthick234@gmail.com,udhay.vin@gmail.com";
+     $to = "karthick234@gmail.com,udhay.vin@gmail.com,babsvp@gmail.com>
+";
  
-  $headers = "From: $email_from \r\n";
+  $headers = "From: $visitor_email \r\n";
  
   $headers .= "Reply-To: $visitor_email \r\n";
  
