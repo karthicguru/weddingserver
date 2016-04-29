@@ -9,7 +9,7 @@
  
     $email_subject = "New RSVP submission";
     $email_body = "You have received a new message from the user $name.\n".
-                            "email-id is: $visitor_email\n"
+                            "email-id is: $visitor_email\n".
                             "Here is the message:\n $message\n".
                             "number of attending: $event \n";
                             
