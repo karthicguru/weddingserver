@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
   $name = $_POST['name'];
   $count = $_POST['guests'];
   $event = $_POST['attending'];
