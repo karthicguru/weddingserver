@@ -12,11 +12,11 @@ header('Access-Control-Allow-Origin: *');
     $email_body = "You have received a new message from the user $name.\n".
                             "email-id is: $visitor_email\n".
                             "Here is the message:\n $message\n".
-                            "number of attending: $event \n";
+                            "Attending the event $event".
+                            "number of attending: $count \n";
                             
 
-     $to = "karthick234@gmail.com,udhay.vin@gmail.com,babsvp@gmail.com>
-";
+     $to = "karthick234@gmail.com,udhay.vin@gmail.com,babsvp@gmail.com>";
  
   $headers = "From: $visitor_email \r\n";
  
